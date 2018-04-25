@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  color: #555;
+  font-family: 'Lato','Arial',sans-serif;
+  font-weight:100;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+body{
+ 
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/assets/img/burger.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+    font-size: 20px;
+  
+}
+
+.jumbotron{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/assets/img/burger.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+h1{
+  padding-left: 70px;
+  color: rgba(255, 255, 255, 0.692);
+  font-size: 55px;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  
+}
+h2{
+  border-radius:10px;
+  background-color: rgba(182, 148, 97,0.4);
+  color: rgba(255, 255, 255, 0.692);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 600;
+ 
+}
+
+#show-me{
+  background-color: rgba(221, 159, 107, 0.911);
+  border-radius: 10px;
+  margin-left:-40px;
+  padding:2px;
+}
+.btn{
+  background-color: #e67622 !important;
+  color: rgba(255, 255, 255, 0.911);
+  border: none;
+  font-size:16px;
+  float: left;
+  margin-right: 5px;
+}
+.btn:hover{
+  background-color: #cf6d17;
+  color: rgba(255, 255, 255, 0.514);
+  transition: background-color 0.2s,color 0.2s,border 0.2s;
+}
+#burg{
+  background-color: #e9d3c1b6 !important;
+  border: none;
+  
+}
+#create-form{
+  margin-bottom: 100px;
+  padding-left: 70px;
+  padding-bottom:40px;
+}
+
+#to-eat,#eaten{
+  background-color:  rgba(255, 255, 255, 0.253);
+  border-radius: 20px;
+  padding:2px 10px 10px 10px;
+}
+.special{
+padding-bottom: 10px;
+}
+
